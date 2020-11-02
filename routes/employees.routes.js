@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const EmployeesController = require('../controllers/employeess.controller');
+const EmployeesController = require('../controllers/employees.controller');
 
 router.get('/employees', EmployeesController.getAll);
 router.get('/employees/random', EmployeesController.getRandom);
